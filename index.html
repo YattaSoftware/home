@@ -5,9 +5,19 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"> 
     <style>
+      #header > div {
+        height: 46px;
+        /*width: 112px;*/
+      }
       svg {
         font-family: 'Comfortaa', cursive;
         font-size: 32px;
+      }
+      svg text {
+        fill: #666;
+      }
+      svg polygon {
+        fill: #FE4A49;
       }
     </style>
   </head>
@@ -19,17 +29,17 @@
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink">
           <text y="26">Y</text>
-          <polygon
+          <polygon class="triangle-1"
             points="32,2 45,26, 19,26"
-            style="fill:#000; stroke:#000; stroke-width:1;"
+            style="stroke-width:1;"
           ></polygon>
           <text x="44" y="26">TT</text>
-          <polygon
+          <polygon class="triangle-2"
             points="98,2 111,26, 85,26"
-            style="fill:#000; stroke:#000; stroke-width:1;"
+            style="stroke-width:1;"
           ></polygon>
           <image x="89" y="9" width="16" height="16" xlink:href="resources/yatta.man.svg" />
-          <text y="36" textLength="112" style="font-size:0.15em;">
+          <text class="software-label" y="36" textLength="112" style="font-size:0.15em;">
             SOFTWARE
           </text>
         </svg>
