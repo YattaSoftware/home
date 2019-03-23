@@ -4,3 +4,26 @@ html, body {
   font-family: helvetica, arial, sans-serif;
   font-size: 13px;
 }
+
+#header {
+  padding: 10px 10px 0;
+  border-bottom: solid 1px #E5E5E5;
+}
+
+#header > div {
+  height: 46px;
+  width: 112px;
+}
+
+svg {
+  font-family: 'Comfortaa', cursive;
+  font-size: 32px;
+}
+
+svg text {
+  fill: #AAA;
+}
+
+svg polygon {
+  fill: #FE4A49;
+}

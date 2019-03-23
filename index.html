@@ -4,27 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"> 
-    <style>
-      #header {
-        padding: 10px 10px 0;
-        border-bottom: solid 1px #E5E5E5;
-      }
-      #header > div {
-        height: 46px;
-        width: 112px;
-      }
-      svg {
-        font-family: 'Comfortaa', cursive;
-        font-size: 32px;
-      }
-      svg text {
-        fill: #AAA;
-      }
-      svg polygon {
-        fill: #FE4A49;
-      }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <script 
   </head>
   <body style="background:#FFF;">
     <div id="header">
@@ -50,10 +31,22 @@
         </svg>
       </div>
     </div>
-
     <div>
-      
+      <table id="calendar">
+        <thead>
+          <tr>
+            <th>Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+          </tr>
+        </thead>
+        <tbody id="calendar-body"></tbody>
+      </table>
     </div>
+    <script src="js/calendar.js"></script>
   </body>
 </html>
-
